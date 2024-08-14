@@ -33,5 +33,5 @@ abstract class Stmt {
     }
 
 
-    abstract <r> R accept(Visitor<R> visitor);
+    abstract <R> R accept(Visitor<R> visitor);
 }
